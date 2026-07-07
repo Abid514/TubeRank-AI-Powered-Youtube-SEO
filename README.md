@@ -1,3 +1,4 @@
+<img width="1606" height="883" alt="Screenshot from 2026-07-07 21-38-08" src="https://github.com/user-attachments/assets/d957734d-623c-4db7-8a7e-0894b2ff204a" />
 
 # 🚀 TubeRank AI-Powered-Youtube-SEO
 
