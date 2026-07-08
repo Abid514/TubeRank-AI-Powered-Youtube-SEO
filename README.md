@@ -1,98 +1,237 @@
-# TubeRank — Turn Long YouTube Videos into Viral Short Clips
+<img width="1606" height="883" alt="Screenshot from 2026-07-07 21-38-08" src="https://github.com/user-attachments/assets/d957734d-623c-4db7-8a7e-0894b2ff204a" />
 
-> AI-powered clip detection for TikTok, Instagram Reels, and YouTube Shorts.
+<img width="1589" height="857" alt="Screenshot from 2026-07-07 21-41-02" src="https://github.com/user-attachments/assets/041c848b-98de-462a-97d6-0df0c86786b3" />
 
-## What it does
 
-TubeRank analyzes any public YouTube long-form video and automatically surfaces the moments most likely to perform well as short-form content. Paste a URL, get a ranked list of clips, then download the ones you want.
+<img width="1638" height="871" alt="Screenshot from 2026-07-07 21-44-59" src="https://github.com/user-attachments/assets/1a89eb4b-086b-4b70-9845-e2ea7ce42702" />
 
-## Features
 
-- **AI clip detection** — finds strong hooks, engaging body segments, punchlines, emotional peaks, and clear CTAs
-- **Platform modes** — optimize for TikTok, Instagram Reels, or YouTube Shorts
-- **Viral scoring** — each clip gets a score based on hook strength, engagement, shareability, and platform fit
-- **Auto captions & hashtags** — one-click copy for posts
-- **Multiple clip options** — generate several candidates from a single video
-- **One-click export** — download trimmed clips in high quality
 
-## Tech stack
 
-- [TanStack Start](https://tanstack.com/start) — full-stack React framework
-- [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS v4](https://tailwindcss.com/) — styling
-- [shadcn/ui](https://ui.shadcn.com/) — UI components
-- [Supabase](https://supabase.com/) — backend, auth, and storage
-- [youtube-transcript](https://github.com/Kakulukian/youtube-transcript) — transcript extraction
 
-## Getting started
+# 🚀 TubeRank AI-Powered-Youtube-SEO
 
-### Prerequisites
+> AI-powered YouTube SEO Optimization Assistant that analyzes videos and generates data-driven recommendations to improve discoverability, search rankings, and audience reach.
 
-- [Bun](https://bun.sh/) (recommended) or Node.js 20+
-- A Supabase project
+🌐 Live Demo
+https://tuberank.lovable.app
 
-### Install
+## Overview
 
-```bash
-bun install
-```
+Creating high-quality videos is only half the battle. Many creators struggle because their videos are not properly optimized for YouTube's search and recommendation systems.
 
-### Environment variables
+TubeRank AI helps creators improve their video's SEO by analyzing existing or upcoming content and generating optimized metadata that increases discoverability.
 
-Create a `.env` file in the project root:
+The system evaluates video content, identifies SEO weaknesses, and produces AI-generated recommendations including titles, descriptions, hashtags, keywords, and optimization tips.
 
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
-```
 
-### Run locally
+## Problem
 
-```bash
-bun dev
-```
+Many YouTube creators invest significant time producing videos but receive limited visibility due to poor SEO optimization.
 
-Open [http://localhost:8080](http://localhost:8080).
+Common issues include:
 
-### Build
+- Weak titles
+- Poor descriptions
+- Missing keywords
+- Ineffective hashtags
+- Low search relevance
+- Poor click-through potential
 
-```bash
-bun run build
-```
+Manually optimizing every upload is time-consuming and often requires SEO expertise.
 
-## Project structure
 
-```
-src/
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    Header.tsx
-    ResultsView.tsx
-    ScoreGauge.tsx
-    ViralClipsView.tsx
-  lib/              # Utilities and server functions
-    seo.functions.ts
-    utils.ts
-  routes/           # TanStack file-based routes
-    __root.tsx
-    index.tsx
-  styles.css        # Tailwind entry + theme tokens
-```
+## Solution
 
-## How it works
+TubeRank AI automates YouTube SEO analysis using artificial intelligence.
 
-1. The user pastes a YouTube URL on the home page.
-2. A server function fetches the video transcript and metadata.
-3. The transcript is analyzed for viral moments using heuristics and AI scoring.
-4. Clips are ranked and presented with start/end timestamps, scores, captions, and hashtags.
-5. The user selects clips and downloads them for posting.
+It analyzes video content and provides optimization recommendations before or after publishing, helping creators produce metadata aligned with YouTube search best practices.
+Supported Workflows ⭐⭐⭐⭐⭐
 
-## Limitations
+This is one of the strongest features of your product.
 
-- Only videos with available transcripts or captions can be analyzed.
-- The current flow returns detected clip windows; actual video cutting and download happen client-side or via an external pipeline.
+## Supported Input Methods
 
-## License
+TubeRank AI supports three different workflows.
 
-MIT
+### 1️⃣ Analyze Existing YouTube Video
 
+Paste any public YouTube URL.
+
+TubeRank AI extracts information, evaluates SEO quality, identifies weaknesses, and generates optimization suggestions.
+
+---
+
+### 2️⃣ Upload Your Own Video
+
+Upload a video before publishing.
+
+TubeRank AI analyzes the content and generates SEO recommendations without requiring the video to be online.
+
+---
+
+### 3️⃣ Idea Mode
+
+Don't have a video yet?
+
+Simply describe your idea.
+
+TubeRank AI generates:
+
+- SEO-friendly title
+- Optimized description
+- High-ranking keywords
+- Relevant hashtags
+- Publishing recommendations
+
+This feature is actually impressive.
+
+Features
+
+Instead of a bullet list, make it a table.
+
+Feature	Description
+🎯 SEO Analysis	Evaluates current optimization quality
+🔍 Weakness Detection	Finds missing SEO opportunities
+✍️ AI Title Generator	Creates optimized titles
+📝 AI Description Generator	Generates SEO descriptions
+🏷️ Keyword Generator	Suggests relevant search keywords
+#️⃣ Hashtag Generator	Creates platform-relevant hashtags
+💡 Optimization Recommendations	Actionable improvements
+📹 Multi Input Support	URL, Video Upload, or Idea
+
+
+AI Workflow ⭐⭐⭐⭐⭐
+YouTube URL / Uploaded Video / Content Idea
+
+            │
+
+            ▼
+
+     Content Extraction
+
+            │
+
+            ▼
+
+      AI Content Analysis
+
+            │
+
+            ▼
+
+      SEO Weakness Detection
+
+            │
+
+            ▼
+
+     Keyword Intelligence
+
+            │
+
+            ▼
+
+ AI Title & Description Generation
+
+            │
+
+            ▼
+
+    Hashtag Recommendation
+
+            │
+
+            ▼
+
+ Final SEO Optimization Report
+
+We'll later make this as a professional diagram.
+
+
+## AI Capabilities
+
+TubeRank AI combines multiple AI-driven techniques:
+
+- Natural Language Processing (NLP)
+- Semantic Content Understanding
+- Keyword Intelligence
+- Search Optimization
+- Metadata Generation
+- Recommendation Systems
+- Content Classification
+
+This makes professors recognize the technical concepts involved.
+
+Example Output
+Input
+
+How to Learn Python in 30 Days
+
+↓
+
+Output
+
+SEO Score
+82/100
+
+Weaknesses
+• Weak title
+• Missing keywords
+• Description too short
+
+Recommended Title
+Learn Python in 30 Days: Complete Beginner Roadmap (2026)
+
+Suggested Keywords
+Python Tutorial
+Learn Python
+Python for Beginners
+Coding Roadmap
+
+Suggested Hashtags
+#Python
+#Programming
+#Coding
+#LearnPython
+#Developer
+
+Optimized Description
+...
+
+This immediately demonstrates the value of the system.
+
+Research Applications ⭐⭐⭐⭐⭐
+
+This is the section that will interest professors.
+
+## Research Applications
+
+The concepts explored in TubeRank AI can be extended to several research domains, including:
+
+- Information Retrieval
+- Search Engine Optimization
+- Recommendation Systems
+- Large Language Models
+- Natural Language Processing
+- Content Ranking
+- Human-Computer Interaction
+- Intelligent Decision Support Systems
+
+
+## Future Research Directions
+
+- Personalized SEO recommendations
+
+- Multilingual optimization
+
+- Thumbnail quality prediction
+
+- CTR prediction models
+
+- Reinforcement Learning for ranking
+
+- LLM-powered content strategy
+
+- YouTube recommendation prediction
+  
